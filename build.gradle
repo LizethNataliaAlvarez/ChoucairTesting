@@ -34,9 +34,9 @@ configurations.all {
     }
 }
 dependencies {
-    compile libs.logback
+    implementation libs.logback
 
-    testCompile libs.test.cucumber.java,
+    testImplementation libs.test.cucumber.java,
             libs.test.cucumber.junit,
             libs.test.serenity.core,
             libs.test.serenity.screenplay,
